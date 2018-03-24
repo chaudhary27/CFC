@@ -1,0 +1,131 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*= require_tree .
+*= require_self
+*/
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+// body, .navbar {
+//   //Gradient provided by @_ighosh at uiGradients.com
+//   background: #00c6ff; /* fallback for old browsers */
+//   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+//   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// }
+.navbar, .home-callout {
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+}
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+// Nav Styles
+.navbar {
+  border: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+// Home Page Styles
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.clr {
+  clear: both;
+}
+
+// Bootstrap Feature Section
+#feature {
+  padding-top:90px;
+  background:#fff;
+  padding-bottom:50px;
+}
+
+#feature .hi-icon-effect {
+  padding-bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#feature .hi-icon-effect:hover {
+  border-radius:6px;
+  background:#f4f4f4;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+#feature .hi-icon-effect i.fa:hover {
+  background:#fff;
+  color: #0BA9F9;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+#feature .text-center i {
+  font-size:30px;
+  margin-top:50px;
+  margin-bottom:30px;
+  color:#fff;
+  padding:50px;
+  background:#0BA9F9;
+  border-radius:50%;
+}
+#feature .text-center h2 {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#feature .text-center h3 {
+  font-size:35px;
+  margin-top:50px;
+  margin-bottom:20px;
+  color:#111;
+}
+
+#feature .text-center p {
+  margin-bottom:30px;
+}
+
+// Feature Section end

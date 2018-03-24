@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cfc</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class='container'>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a href="/" class="navbar-brand"><i class="fa fa-cogs"></i> CFC-Ops</a> -->
+        <%= link_to root_path, class: "navbar-brand" do %>
+        <i class="fa fa-compass fa-2x"></i> 
+        CFC-Ops
+        <% end %>
+      </div>
+      <div class="collapse navbar-collapse" id="main-nav-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "About", about_path %></li>
+          <%= link_to "Log In", '/', class: "btn btn-default navbar-btn" %>
+          <%= link_to "Sign Up", '/', class: "btn btn-default navbar-btn" %>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+  
+  
+  <%= yield %>
+  
+  <br class="clr" />
+  
+  <div id="footer">
+    <div class="container">
+      <div class="col-xs-12 col-sm-3">
+        <b>FAQs</b>
+        <br />
+        <%= link_to 'Tips', '#' %>
+        <br />
+        <%= link_to 'Dashboard', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'BAH-CFC', '#' %>
+        <br />
+        <%= link_to 'Documentation', '#' %>
+        <br />
+        <%= link_to 'Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b><br />
+        <br />
+        <%= link_to 'Contact-Us', '#', class: "btn btn-info btn-sm" %>
+        
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <br />
+        
+        <!-- <%= link_to '#', target: "_blank" do %>
+        <%= image_tag 'github.png', :class => 'social-button' %>
+        <% end %>
+        
+        <%= link_to '#', target: "_blank" do %>
+        <%= image_tag 'facebook.png', :class => 'social-button' %>
+        <% end %>
+        
+        <%= link_to '#', target: "_blank" do %>
+        <%= image_tag 'twitter.png', :class => 'social-button' %>
+        <% end %> -->
+        
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
