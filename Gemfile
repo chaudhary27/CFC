@@ -19,6 +19,8 @@ gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.5.0'
 
+gem 'hirb', '0.7.3'
+
 gem 'bootstrap-sass', '3.3.7'
 # gem 'bootstrap', '~> 4.0.0'
 
