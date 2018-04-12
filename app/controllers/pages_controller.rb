@@ -7,4 +7,8 @@ class PagesController < ApplicationController
   def about
     
   end
+  
+  def ir_dashboard
+    
+  end
 end
