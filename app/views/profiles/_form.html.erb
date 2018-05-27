@@ -1,0 +1,33 @@
+<%= form_for @profile, url: user_profile_path, :html => {:multipart => true} do |f| %>
+  <div class="form-group">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :phone_number %>
+    <%= f.text_field :phone_number, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :email %>
+    <%= f.text_field :email, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :bah_id, 'BAH ID' %>
+    <%= f.text_field :bah_id, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :project %>
+    <%= f.select :project, ['Apple', 'Orange', 'Bnanna'], {}, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.submit "Update Profile", class: 'btn btn-primary' %>
+  </div>
+<% end %>

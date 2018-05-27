@@ -1,0 +1,66 @@
+.avatar-show-img {
+  width: 128px;
+  height: 128px;
+}
+.health-band-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border:2px solid #2e5da4;
+  border-radius: 4px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+}
+.well.profile-block {
+  color: #fff;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.well.profile-desc {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.well.profile-contact-info {
+  background-color: #686497;
+  border-color: #210f3d;
+  
+}
+.well.profile-health-info-1 {
+  background-color: #4286f4;
+  border-color: #4286f4;
+  
+}
+.well.profile-health-info-2 {
+  background-color: #244172;
+  border-color: #244172;
+  
+}
+.well.profile-health-info-3 {
+  background-color: #4ec9a6;
+  border-color: #4ec9a6;
+}
+.well.profile-health-info-4 {
+  background-color: #c9aa4e;
+  border-color: #c9aa4e;
+}
+.well.profile-location-info {
+  background-color: #f4416b;
+  border-color: #f4416b;
+  
+}
+
+// Index Page Styles
+
+.user-index-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.well.white-bg {
+  background: white;
+}

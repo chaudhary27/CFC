@@ -21,6 +21,8 @@ gem 'jbuilder', '2.5.0'
 
 gem 'hirb', '0.7.3'
 
+gem 'paperclip', '4.3.6'
+
 gem 'bootstrap-sass', '3.3.7'
 # gem 'bootstrap', '~> 4.0.0'
 

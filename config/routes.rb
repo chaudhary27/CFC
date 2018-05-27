@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
+
+  resources :users do
+    resource :profile
+  end
   # path to homepage
   root to: 'pages#home'
   # path to about page
