@@ -21,6 +21,8 @@ gem 'jbuilder', '2.5.0'
 
 gem 'hirb', '0.7.3'
 
+gem 'virustotal_api'
+
 gem 'paperclip', '4.3.6'
 
 gem 'bootstrap-sass', '3.3.7'

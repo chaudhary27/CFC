@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about' 
   # path to ir dashboard
   get 'ir_dashboard', to: 'pages#ir_dashboard'
+  # path to virustotal page
+  get 'virustotal', to: 'pages#virustotal'
+  # path to cyberchef page
+  get 'cyberchef', to: 'pages#cyberchef'
   # CRUD operations path for contacts model
   resources :contacts, only: :create
   get 'contact-us', to: 'contacts#new', as: 'new_contact'

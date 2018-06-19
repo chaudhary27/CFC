@@ -1,0 +1,7 @@
+<h1>VirusTotal</h1>
+<% if @vtreport %>
+    <p> VirusTotal report exists and the URL is as follows </p>
+   <a href="" target="_blank"><%=  @vtreport_url%> </a>
+    <% else %>
+    <p> No results for the SHA256 hash found :( </p>
+<% end %>
