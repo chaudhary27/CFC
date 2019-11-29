@@ -31,7 +31,7 @@ gem 'bootstrap-sass', '3.3.7'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
-gem 'devise', '4.2.0'
+gem 'devise', '4.7.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
