@@ -25,7 +25,7 @@ gem 'virustotal_api'
 
 gem 'paperclip', '4.3.6'
 
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 # gem 'bootstrap', '~> 4.0.0'
 
 # Use Font Awesome sass gem for adding icons
