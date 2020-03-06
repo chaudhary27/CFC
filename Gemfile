@@ -23,7 +23,7 @@ gem 'hirb', '0.7.3'
 
 gem 'virustotal_api'
 
-gem 'paperclip', '4.3.6'
+gem 'paperclip', '5.2.0'
 
 gem 'bootstrap-sass', '3.3.7'
 # gem 'bootstrap', '~> 4.0.0'
